@@ -12,7 +12,7 @@ if(email.includes("@") && !email.endsWith("@") && !email.startsWith("@")){
     alert("Email is correct.")
 }else alert("Email is incorrect!");
 
-Task 3
+// Task 3
 
 let text = prompt("Enter your text.");
 let regEx = /html/ig;
