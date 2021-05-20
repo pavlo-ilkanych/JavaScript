@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .wrapper{
+        width: 65%; 
+        height: auto;
+        padding: 20px 10px;
+        margin: auto;
+    }
+    
+    .inputBlock{
+        display: flex;
+        justify-content: space-around;
+        height: 50px;
+        align-items: center;
+    }
+    
+    .inputBlock input{
+        width: 45%;
+        height: 45px;
+        font-size: 1em;
+        border: 1px solid #BED2E7;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px  #BED2E7;
+    }
+    
+    .inputBlock button{
+        width: 45%;
+        height: 45px;
+        font-size: 1em;
+        color: white;
+        border: 1px solid #26A442;
+        background-color: #26A442;
+        border-radius: 5px;
+    }
+    
+    .inputBlock button:hover{
+        font-weight: bold;
+        cursor: pointer;
+        background-color: #257F3C;
+    }
